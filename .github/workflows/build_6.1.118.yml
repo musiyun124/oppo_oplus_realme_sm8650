@@ -19,7 +19,7 @@ on:
       hook_method:
         description: hook模式(大部分情况manual即可，少数需切换sus su模式的场景才需要kprobes钩子)
         required: true
-        type: choice
+        输入: choice
         default: 'manual'
         options:
           - 'manual'
@@ -27,7 +27,7 @@ on:
       kpm_enable:
         description: '是否开启kpm(可能轻微增加耗电，不需要可关闭)'
         required: true
-        type: choice
+        输入: choice
         default: 'true'
         options:
           - 'true'
